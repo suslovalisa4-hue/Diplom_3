@@ -60,7 +60,6 @@ public class BaseTest {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10)); // Увеличил до 10 секунд
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
 
-        // НЕ вызываем maximize здесь, если уже использовали --start-maximized
         if (!browser.equalsIgnoreCase("yandex")) {
             driver.manage().window().maximize();
         }
