@@ -1,0 +1,131 @@
+[ {
+  "uid" : "e97c552fea1fd3b6",
+  "name" : "Переход к разделу Начики",
+  "time" : {
+    "start" : 1771146256868,
+    "stop" : 1771146260565,
+    "duration" : 3697
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dd5d17ecb4ce1ab2",
+  "name" : "Успешная регистрастрация с валидными данными",
+  "time" : {
+    "start" : 1771146314694,
+    "stop" : 1771146318407,
+    "duration" : 3713
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "28b93afea7a44859",
+  "name" : "Переход по клику на Личный кабинет.",
+  "time" : {
+    "start" : 1771146307443,
+    "stop" : 1771146311954,
+    "duration" : 4511
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "37ae971b3526ca47",
+  "name" : "Вход в ЛК через кнопку «Личный кабинет»",
+  "time" : {
+    "start" : 1771146295232,
+    "stop" : 1771146299372,
+    "duration" : 4140
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c1ddc150a0549c4d",
+  "name" : "Проверка перехода в конструктор по клику на логотип 'Stellar Burgers'",
+  "time" : {
+    "start" : 1771146276190,
+    "stop" : 1771146283147,
+    "duration" : 6957
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "48a67e2f5eeb1186",
+  "name" : "Переход к разделу Соусы",
+  "time" : {
+    "start" : 1771146241369,
+    "stop" : 1771146256659,
+    "duration" : 15290
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "47660121770a4b24",
+  "name" : "Вход в ЛК через кнопку в форме регистрации",
+  "time" : {
+    "start" : 1771146303428,
+    "stop" : 1771146307439,
+    "duration" : 4011
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dfd13c2450b062e9",
+  "name" : "Проверь переход по клику на «Конструктор»",
+  "time" : {
+    "start" : 1771146265443,
+    "stop" : 1771146276173,
+    "duration" : 10730
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eb17b9c4c60160e8",
+  "name" : "Переход к разделу Булки",
+  "time" : {
+    "start" : 1771146260590,
+    "stop" : 1771146265245,
+    "duration" : 4655
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b61c9b8b00b5ebc0",
+  "name" : "Вход в ЛК через кнопку в форме восстановления пароля",
+  "time" : {
+    "start" : 1771146289181,
+    "stop" : 1771146295230,
+    "duration" : 6049
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "301b8ed95f3aafed",
+  "name" : "Неуспешная регистрация при некорректном пароле",
+  "time" : {
+    "start" : 1771146311966,
+    "stop" : 1771146314689,
+    "duration" : 2723
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7805c0d6d6e86577",
+  "name" : "Проверить выход по кнопке «Выйти» в личном кабинете.",
+  "time" : {
+    "start" : 1771146283156,
+    "stop" : 1771146289175,
+    "duration" : 6019
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "14f0925031a866e5",
+  "name" : "Вход в ЛК по кнопке «Войти в аккаунт» на главной странице",
+  "time" : {
+    "start" : 1771146299374,
+    "stop" : 1771146303425,
+    "duration" : 4051
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,114 @@
+{
+  "uid" : "e97c552fea1fd3b6",
+  "name" : "Переход к разделу Начики",
+  "fullName" : "ConstructorTabTest.userCanSwitchToFillingTabTest",
+  "historyId" : "e34f2fe2bde4951c67339137daa25f4d",
+  "time" : {
+    "start" : 1771146256868,
+    "stop" : 1771146260565,
+    "duration" : 3697
+  },
+  "description" : "Проверка, что при клике на 'Начинки' открывается соответствующая вкладка",
+  "descriptionHtml" : "<p>Проверка, что при клике на 'Начинки' открывается соответствующая вкладка</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверка, что при клике на 'Начинки' открывается соответствующая вкладка",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открыть главную страницу",
+      "time" : {
+        "start" : 1771146258179,
+        "stop" : 1771146258892,
+        "duration" : 713
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Клик на вкладку 'Начинки'",
+      "time" : {
+        "start" : 1771146258892,
+        "stop" : 1771146259136,
+        "duration" : 244
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Получить текст активной вкладки",
+      "time" : {
+        "start" : 1771146259137,
+        "stop" : 1771146259224,
+        "duration" : 87
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "ConstructorTabTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "userCanSwitchToFillingTabTest"
+  }, {
+    "name" : "suite",
+    "value" : "ConstructorTabTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-4GNILCEM"
+  }, {
+    "name" : "thread",
+    "value" : "22940@LAPTOP-4GNILCEM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e97c552fea1fd3b6.json",
+  "parameterValues" : [ ]
+}

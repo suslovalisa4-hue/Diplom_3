@@ -1,0 +1,129 @@
+{
+  "uid" : "eb17b9c4c60160e8",
+  "name" : "Переход к разделу Булки",
+  "fullName" : "ConstructorTabTest.userCanSwitchToBunTabTest",
+  "historyId" : "fba65417afa2282a5eb52a406f3e61d7",
+  "time" : {
+    "start" : 1771146260590,
+    "stop" : 1771146265245,
+    "duration" : 4655
+  },
+  "description" : "Проверка, что при клике на 'Булки' открывается соответствующая вкладка",
+  "descriptionHtml" : "<p>Проверка, что при клике на 'Булки' открывается соответствующая вкладка</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверка, что при клике на 'Булки' открывается соответствующая вкладка",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открыть главную страницу",
+      "time" : {
+        "start" : 1771146261824,
+        "stop" : 1771146262676,
+        "duration" : 852
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Клик на вкладку 'Соусы'",
+      "time" : {
+        "start" : 1771146262676,
+        "stop" : 1771146262973,
+        "duration" : 297
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Клик на вкладку 'Булки'",
+      "time" : {
+        "start" : 1771146262974,
+        "stop" : 1771146263202,
+        "duration" : 228
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Получить текст активной вкладки",
+      "time" : {
+        "start" : 1771146263852,
+        "stop" : 1771146263909,
+        "duration" : 57
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "ConstructorTabTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "userCanSwitchToBunTabTest"
+  }, {
+    "name" : "suite",
+    "value" : "ConstructorTabTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-4GNILCEM"
+  }, {
+    "name" : "thread",
+    "value" : "22940@LAPTOP-4GNILCEM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "eb17b9c4c60160e8.json",
+  "parameterValues" : [ ]
+}

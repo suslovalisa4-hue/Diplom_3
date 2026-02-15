@@ -1,0 +1,249 @@
+{
+  "uid" : "dd5d17ecb4ce1ab2",
+  "name" : "Успешная регистрастрация с валидными данными",
+  "fullName" : "RegistrationTest.RegisterSuccessfullyTest",
+  "historyId" : "98a9ce9e7c5012a3989049e762005dac",
+  "time" : {
+    "start" : 1771146314694,
+    "stop" : 1771146318407,
+    "duration" : 3713
+  },
+  "description" : "Проверка успешной регистрации пользователя с валидными данными",
+  "descriptionHtml" : "<p>Проверка успешной регистрации пользователя с валидными данными</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверка успешной регистрации пользователя с валидными данными",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открыть страницу регистрации",
+      "time" : {
+        "start" : 1771146315503,
+        "stop" : 1771146315966,
+        "duration" : 463
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Заполнить и отправить форму регистрации",
+      "time" : {
+        "start" : 1771146315967,
+        "stop" : 1771146316269,
+        "duration" : 302
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод имени",
+        "time" : {
+          "start" : 1771146315967,
+          "stop" : 1771146316034,
+          "duration" : 67
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "Petr"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Ввод email",
+        "time" : {
+          "start" : 1771146316034,
+          "stop" : 1771146316106,
+          "duration" : 72
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "test38169@yandex.ru"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Ввод пароля",
+        "time" : {
+          "start" : 1771146316107,
+          "stop" : 1771146316152,
+          "duration" : 45
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "password",
+          "value" : "test3456"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Нажать кнопку 'Зарегистрироваться'",
+        "time" : {
+          "start" : 1771146316152,
+          "stop" : 1771146316269,
+          "duration" : 117
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "nameValue",
+        "value" : "Petr"
+      }, {
+        "name" : "emailValue",
+        "value" : "test38169@yandex.ru"
+      }, {
+        "name" : "passwordValue",
+        "value" : "test3456"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 4,
+      "hasContent" : true
+    }, {
+      "name" : "Геттер заголовка 'Вход'",
+      "time" : {
+        "start" : 1771146316269,
+        "stop" : 1771146316269,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Геттер заголовка 'Вход'",
+      "time" : {
+        "start" : 1771146316419,
+        "stop" : 1771146316419,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Удаление пользователя через API",
+      "time" : {
+        "start" : 1771146316437,
+        "stop" : 1771146317233,
+        "duration" : 796
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Получение accessToken через API",
+        "time" : {
+          "start" : 1771146316437,
+          "stop" : 1771146316597,
+          "duration" : 160
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "test38169@yandex.ru"
+        }, {
+          "name" : "password",
+          "value" : "test3456"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "test38169@yandex.ru"
+      }, {
+        "name" : "password",
+        "value" : "test3456"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 10,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "RegistrationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "RegisterSuccessfullyTest"
+  }, {
+    "name" : "suite",
+    "value" : "RegistrationTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-4GNILCEM"
+  }, {
+    "name" : "thread",
+    "value" : "22940@LAPTOP-4GNILCEM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dd5d17ecb4ce1ab2.json",
+  "parameterValues" : [ ]
+}
